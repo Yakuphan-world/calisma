@@ -1,0 +1,8 @@
+mykey = "yeni"
+ami = "ami-0889a44b331db0194"
+region = "us-east-1"
+instance_type = "t3a.medium"
+jenkins_server_secgr = "petclinic-jenkins-server-secgr-yakup"
+jenkins-server-tag = "Jenkins Server of Petclinic-yakup"
+jenkins-profile = "petclinic-jenkins-server-profile-yakup"
+jenkins-role = "petclinic-jenkins-server-role-yakup"
