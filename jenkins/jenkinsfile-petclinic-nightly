@@ -106,7 +106,7 @@ pipeline {
                 echo 'Deploying App on Kubernetes'
                 sh "envsubst < k8s/petclinic_chart/values-template.yaml > k8s/petclinic_chart/values.yaml"
                 sh "sed -i s/HELM_VERSION/${BUILD_NUMBER}/ k8s/petclinic_chart/Chart.yaml"
-                sh "helm repo add stable-petclinic s3://petclinic-helm-charts-yakuphan
+                sh "helm repo add stable-petclinic s3://petclinic-helm-charts-yakup
               
               /stable/myapp/"
                 sh "helm package k8s/petclinic_chart"
